@@ -1,0 +1,29 @@
+{
+  "name": "msgpackup",
+  "version": "0.0.1",
+  "description": "Add msgpack as a levelup leveldb encoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "levelup",
+    "leveldb",
+    "msgpack",
+    "encoding"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "should": "~1.2.2",
+    "underscore": "~1.4.4",
+    "rimraf": "~2.1.4",
+    "mocha": "~1.9.0",
+    "async": "~0.2.8"
+  },
+  "dependencies": {
+    "msgpack": "~0.1.8",
+    "levelup": "~0.8.0"
+  }
+}
