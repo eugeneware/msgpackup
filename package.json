@@ -1,12 +1,15 @@
 {
   "name": "msgpackup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add msgpack as a levelup leveldb encoding",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eugeneware/msgpackup.git"
+  },
   "keywords": [
     "levelup",
     "leveldb",
@@ -25,5 +28,9 @@
   "dependencies": {
     "msgpack": "~0.1.8",
     "levelup": "~0.8.0"
+  },
+  "gitHead": "b2227af1d4dd2e94214ef596576adcaf62f28c1b",
+  "directories": {
+    "test": "test"
   }
 }
